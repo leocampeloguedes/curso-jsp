@@ -14,5 +14,19 @@
 			<input type="text" id="nome" name="nome">
 			<input type="submit" value="enviar">
 		</form>
+		
+		<br>
+		<%! 	int cont = 5; 
+			
+				public int retorna(int n){
+					return n * 10;
+				}
+		%>
+		
+		<%= cont %>
+		<br/>
+				
+		<%= retorna(5) %>
+		
 </body>
 </html>
