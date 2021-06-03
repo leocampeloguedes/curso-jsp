@@ -8,5 +8,7 @@
 </head>
 <body>
 	<%= "Nome Recebido: " + request.getParameter("nome") %>
+	
+	<%= session.getAttribute("curso") %>
 </body>
 </html>

@@ -28,5 +28,7 @@
 				
 		<%= retorna(5) %>
 		
+		<%session.setAttribute("curso", "curso de jsp"); %>
+		
 </body>
 </html>
