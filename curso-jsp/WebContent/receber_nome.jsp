@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Bem vindo ao curso de JSP</title>
+<title>Insert title here</title>
 </head>
 <body>
-
+	<% out.print(request.getParameter("nome")); %>
 </body>
 </html>
